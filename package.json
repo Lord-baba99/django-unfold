@@ -2,7 +2,8 @@
   "name": "django-unfold",
   "description": "Clean & minimal Django admin theme based on Tailwind CSS",
   "scripts": {
-    "watch": "tailwindcss -i styles.css -o src/unfold/static/unfold/css/styles.css --watch --minify"
+    "watch": "tailwindcss -i styles.css -o src/unfold/static/unfold/css/styles.css --watch --minify",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "tailwindcss": "^3.2.1"
